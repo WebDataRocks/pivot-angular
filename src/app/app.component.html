@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>Angular 2+ integration with WebDataRocks</h1>
+<wbr-pivot #pivot1 [toolbar]="true"
+          [width]="'100%'"
+          [height]="500"
+          [customizeCell]="onCustomizeCell"
+          (ready)="onPivotReady($event)"
+          (reportcomplete)="onReportComplete($event)">
+    WebDataRocks will appear here
+</wbr-pivot>
+
