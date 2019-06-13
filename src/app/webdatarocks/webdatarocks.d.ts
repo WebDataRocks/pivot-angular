@@ -252,7 +252,7 @@ declare namespace WebDataRocks {
             quantity?: number,
             type?: string
         };
-        sortName?: string;
+        sort?: "asc" | "desc" | "unsorted";
         uniqueName?: string;
     }
 
