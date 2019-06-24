@@ -150,6 +150,7 @@ declare namespace WebDataRocks {
             column?: Object,
             row?: Object
         };
+        flatOrder?: string[];
     }
 
     interface Options {
