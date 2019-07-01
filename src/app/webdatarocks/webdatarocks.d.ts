@@ -156,12 +156,12 @@ declare namespace WebDataRocks {
     interface Options {
         grid?: {
             showFilter?: boolean,
-            showGrandTotals?: string,
+            showGrandTotals?: string | boolean,
             showHeaders?: boolean,
             showHierarchies?: boolean,
             showHierarchyCaptions?: boolean,
             showReportFiltersArea?: boolean,
-            showTotals?: boolean,
+            showTotals?: string | boolean,
             title?: string,
             type?: string
         };
