@@ -2,6 +2,14 @@
     WebDataRocks(params: WebDataRocks.Params): WebDataRocks.Pivot;
 }
 
+export as namespace WebDataRocks;
+declare const WebDataRocks: WebDataRocksConstructor;
+export = WebDataRocks;
+interface WebDataRocksConstructor {
+    new(params: WebDataRocks.Params): WebDataRocks.Pivot;
+    (params: WebDataRocks.Params): WebDataRocks.Pivot;
+}
+
 declare namespace WebDataRocks {
     interface Params {
         // params

@@ -1,4 +1,5 @@
 ﻿import { Component, ElementRef, Input, Output, EventEmitter } from "@angular/core";
+import * as WebDataRocks from "webdatarocks";
 
 @Component({
     selector: "wbr-pivot",
@@ -52,7 +53,7 @@ export class WebDataRocksPivot {
     }
 
     ngOnInit() {
-        this.webDataRocks = window["WebDataRocks"]({
+        this.webDataRocks = new WebDataRocks({
             container: this.root.getElementsByClassName("wbr-ng-wrapper")[0],
             width: this.width,
             height: this.height,
