@@ -12,10 +12,10 @@ export class WebDataRocksPivot {
     @Input() height: string | number;
     @Input() report: WebDataRocks.Report | string;
     @Input() global: WebDataRocks.Report;
-    @Input() customizeCell: (cell: WebDataRocks.CellBuilder, data: WebDataRocks.Cell) => void;
+    @Input() customizeCell: (cell: WebDataRocks.CellBuilder, data: WebDataRocks.CellData) => void;
     // events
-    @Output() cellclick: EventEmitter<WebDataRocks.Cell> = new EventEmitter();
-    @Output() celldoubleclick: EventEmitter<WebDataRocks.Cell> = new EventEmitter();
+    @Output() cellclick: EventEmitter<WebDataRocks.CellData> = new EventEmitter();
+    @Output() celldoubleclick: EventEmitter<WebDataRocks.CellData> = new EventEmitter();
     @Output() dataerror: EventEmitter<Object> = new EventEmitter();
     @Output() datafilecancelled: EventEmitter<Object> = new EventEmitter();
     @Output() dataloaded: EventEmitter<Object> = new EventEmitter();
@@ -61,32 +61,31 @@ export class WebDataRocksPivot {
             report: this.report,
             global: this.global,
             customizeCell: this.customizeCell,
-            cellclick: (cell: WebDataRocks.Cell) => this.cellclick.next(cell),
-            celldoubleclick: (cell: WebDataRocks.Cell) => this.celldoubleclick.next(cell),
+            cellclick: (cell: WebDataRocks.CellData) => this.cellclick.next(cell),
+            celldoubleclick: (cell: WebDataRocks.CellData) => this.celldoubleclick.next(cell),
             dataerror: (event: Object) => this.dataerror.next(event),
-            datafilecancelled: (event: Object) => this.datafilecancelled.next(event),
-            dataloaded: (event: Object) => this.dataloaded.next(event),
+            datafilecancelled: () => this.datafilecancelled.next(),
+            dataloaded: () => this.dataloaded.next(),
             datachanged: (event: Object) => this.datachanged.next(event),
-            fieldslistclose: (event: Object) => this.fieldslistclose.next(event),
-            fieldslistopen: (event: Object) => this.fieldslistopen.next(event),
-            filteropen: (event: Object) => this.filteropen.next(event),
-            fullscreen: (event: Object) => this.fullscreen.next(event),
-            loadingdata: (event: Object) => this.loadingdata.next(event),
-            loadinglocalization: (event: Object) => this.loadinglocalization.next(event),
-            loadingreportfile: (event: Object) => this.loadingreportfile.next(event),
-            localizationerror: (event: Object) => this.localizationerror.next(event),
-            localizationloaded: (event: Object) => this.localizationloaded.next(event),
-            openingreportfile: (event: Object) => this.openingreportfile.next(event),
-            querycomplete: (event: Object) => this.querycomplete.next(event),
-            queryerror: (event: Object) => this.queryerror.next(event),
+            fieldslistclose: () => this.fieldslistclose.next(),
+            fieldslistopen: () => this.fieldslistopen.next(),
+            filteropen: () => this.filteropen.next(),
+            loadingdata: () => this.loadingdata.next(),
+            loadinglocalization: () => this.loadinglocalization.next(),
+            loadingreportfile: () => this.loadingreportfile.next(),
+            localizationerror: () => this.localizationerror.next(),
+            localizationloaded: () => this.localizationloaded.next(),
+            openingreportfile: () => this.openingreportfile.next(),
+            querycomplete: () => this.querycomplete.next(),
+            queryerror: () => this.queryerror.next(),
             ready: () => this.ready.next(this.webDataRocks),
-            reportchange: (event: Object) => this.reportchange.next(event),
-            reportcomplete: (event: Object) => this.reportcomplete.next(event),
-            reportfilecancelled: (event: Object) => this.reportfilecancelled.next(event),
-            reportfileerror: (event: Object) => this.reportfileerror.next(event),
-            reportfileloaded: (event: Object) => this.reportfileloaded.next(event),
-            runningquery: (event: Object) => this.runningquery.next(event),
-            update: (event: Object) => this.update.next(event),
+            reportchange: () => this.reportchange.next(),
+            reportcomplete: () => this.reportcomplete.next(),
+            reportfilecancelled: () => this.reportfilecancelled.next(),
+            reportfileerror: () => this.reportfileerror.next(),
+            reportfileloaded: () => this.reportfileloaded.next(),
+            runningquery: () => this.runningquery.next(),
+            update: () => this.update.next(),
             beforetoolbarcreated: (toolbar: Object) => this.beforetoolbarcreated.next(toolbar),
             aftergriddraw: (event: Object) => this.aftergriddraw.next(event),
             beforegriddraw: (event: Object) => this.beforegriddraw.next(event)

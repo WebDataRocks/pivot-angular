@@ -14,7 +14,7 @@ export class AppComponent {
         console.log("[ready] WebDataRocksPivot", this.child);
     }
 
-    onCustomizeCell(cell: WebDataRocks.CellBuilder, data: WebDataRocks.Cell): void {
+    onCustomizeCell(cell: WebDataRocks.CellBuilder, data: WebDataRocks.CellData): void {
       //console.log("[customizeCell] WebDataRocksPivot");
       if (data.isClassicTotalRow) cell.addClass("fm-total-classic-r");
       if (data.isGrandTotalRow) cell.addClass("fm-grand-total-r");
