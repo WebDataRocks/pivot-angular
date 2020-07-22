@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "pivot-angular": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pivot-angular"
+    }
+  },
+  "defaultProject": "pivot-angular",
+  "cli": {
+    "analytics": "853f390c-cfd7-45cc-bd9d-1a818446e77c"
+  }
 }
