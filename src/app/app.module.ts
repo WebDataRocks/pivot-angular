@@ -1,12 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { WebDataRocksPivot } from "./webdatarocks/webdatarocks.angular4";
+import { WebdatarocksComponent } from './webdatarocks/webdatarocks.component';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent, WebDataRocksPivot
+    AppComponent, WebdatarocksComponent
   ],
   imports: [
     BrowserModule
