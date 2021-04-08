@@ -1,8 +1,8 @@
-# WebDataRocks integration with Angular 2+ framework
+# WebDataRocks integration with Angular 4+ framework
 
 ## **Updated to Angular 10**
 
-This repository holds sample integration project of WebDataRocks reporting tool with Angular 2+ framework. For detailed instructions please refer to this tutorial: [WebDataRocvks integration with Angular 2+](https://www.webdatarocks.com/doc/integration-with-angular/).
+This repository holds sample integration project of WebDataRocks reporting tool with Angular 4+ framework. For detailed instructions please refer to this tutorial: [WebDataRocks integration with Angular 4+](https://www.webdatarocks.com/doc/integration-with-angular/).
 
 ## Get WebDataRocks
 
