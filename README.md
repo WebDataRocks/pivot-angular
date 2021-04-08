@@ -12,6 +12,11 @@ WebDataRocks is a free reporting tool. [Get it here](https://www.webdatarocks.co
 
 1. Download or clone this sample project from GitHub.
 2. Install npm packages by running in the console:
-`npm install`
+```
+npm install
+```
 3. Run your application:
-ng serveYour application will run at `http://localhost:4200/`.
+```
+ng serve
+```
+Your application will run at `http://localhost:4200/`.
