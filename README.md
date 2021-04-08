@@ -6,7 +6,7 @@ This repository holds sample integration project of WebDataRocks reporting tool 
 
 ## Get WebDataRocks
 
-WebDataRocks is a free reporting tool. [Request it here](https://www.webdatarocks.com/get-webdatarocks/).
+WebDataRocks is a free reporting tool. [Get it here](https://www.webdatarocks.com/get-webdatarocks/).
 
 ## Running this project
 
