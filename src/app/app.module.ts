@@ -1,15 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { WebdatarocksComponent } from './webdatarocks/webdatarocks.component';
+import { WebdatarocksPivotModule } from 'ng-webdatarocks';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent, WebdatarocksComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    WebdatarocksPivotModule
   ],
   providers: [],
   bootstrap: [AppComponent]

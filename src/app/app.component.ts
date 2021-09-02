@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ViewChild } from '@angular/core';
-import { WebdatarocksComponent } from './webdatarocks/webdatarocks.component';
+import { WebdatarocksComponent } from 'ng-webdatarocks';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +11,7 @@ export class AppComponent {
   @ViewChild('pivot1') child: WebdatarocksComponent;
 
   onPivotReady(pivot: WebDataRocks.Pivot): void {
-    console.log('[ready] WebdatarocksComponent', this.child);
+    console.log('[ready] WebdatarocksPivotModule', this.child);
   }
 
   onCustomizeCell(
