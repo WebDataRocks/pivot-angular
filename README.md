@@ -1,6 +1,6 @@
 # WebDataRocks integration with Angular 4+ framework
 
-## **Updated to Angular 10**
+:grey_exclamation: **Updated to Angular 10** :grey_exclamation:
 
 This repository holds sample integration project of WebDataRocks reporting tool with Angular 4+ framework.
 
