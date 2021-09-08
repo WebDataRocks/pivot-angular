@@ -8,7 +8,7 @@ This repository holds sample integration project of WebDataRocks reporting tool 
 
 WebDataRocks is a free reporting tool. [Get it here](https://www.webdatarocks.com/get-webdatarocks/).
 
-## Running this project
+## Run this project
 
 1. Download or clone this sample project from GitHub.
 2. Install npm packages by running in the console:
