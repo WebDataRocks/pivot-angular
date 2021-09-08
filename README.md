@@ -23,4 +23,4 @@ Your application will run at `http://localhost:4200/`.
 
 ## Learn more about integration with Angular
 
-For detailed instructions on the integration, please refer to this tutorial: [WebDataRocks integration with Angular 4+](https://www.webdatarocks.com/doc/integration-with-angular/).
+For detailed instructions on the integration, please refer to this tutorial: [Integration with Angular 4+](https://www.webdatarocks.com/doc/integration-with-angular/).
