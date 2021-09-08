@@ -4,8 +4,6 @@
 
 This repository holds sample integration project of WebDataRocks reporting tool with Angular 4+ framework.
 
-For detailed instructions, please refer to this tutorial: [WebDataRocks integration with Angular 4+](https://www.webdatarocks.com/doc/integration-with-angular/).
-
 ## Get WebDataRocks
 
 WebDataRocks is a free reporting tool. [Get it here](https://www.webdatarocks.com/get-webdatarocks/).
@@ -22,3 +20,7 @@ npm install
 ng serve
 ```
 Your application will run at `http://localhost:4200/`.
+
+## Learn more about integration with Angular
+
+For detailed instructions on the integration, please refer to this tutorial: [WebDataRocks integration with Angular 4+](https://www.webdatarocks.com/doc/integration-with-angular/).
