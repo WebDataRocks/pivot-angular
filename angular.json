@@ -104,7 +104,6 @@
       }
     }
   },
-  "defaultProject": "pivot-angular",
   "cli": {
     "analytics": "853f390c-cfd7-45cc-bd9d-1a818446e77c"
   }
