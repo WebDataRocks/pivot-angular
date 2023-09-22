@@ -2,7 +2,7 @@
 
 :grey_exclamation: **Updated to Angular 15** :grey_exclamation:
 
-This repository contains a sample project that shows how to integrate [WebDataRocks](http://WebDataRocks) with the [Angular framework](https://angular.io/).
+This repository contains a sample project that shows how to integrate [WebDataRocks](https://www.webdatarocks.com/) with the [Angular framework](https://angular.io/).
 
 ## Prerequisites
 
