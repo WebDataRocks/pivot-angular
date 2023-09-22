@@ -1,26 +1,35 @@
-# WebDataRocks integration with Angular 4+ framework
+# Example of integrating WebDataRocks with the Angular framework
 
 :grey_exclamation: **Updated to Angular 15** :grey_exclamation:
 
-This repository holds sample integration project of WebDataRocks reporting tool with Angular 4+ framework.
+This repository contains a sample project that shows how to integrate [WebDataRocks](http://WebDataRocks) with the [Angular framework](https://angular.io/).
 
-## Get WebDataRocks
+## Prerequisites
 
-WebDataRocks is a free reporting tool. [Get it here](https://www.webdatarocks.com/get-webdatarocks/).
+- [Node.js 14](https://nodejs.org/en)
 
 ## Run this project
 
-1. Download or clone this sample project from GitHub.
-2. Install npm packages by running in the console:
+1. Download or clone this project from GitHub:
+```
+git clone https://github.com/WebDataRocks/pivot-angular.git
+cd pivot-angular
+```
+2. Install npm packages:
 ```
 npm install
 ```
-3. Run your application:
+3. Run the project:
 ```
-ng serve
+npm start
 ```
-Your application will run at `http://localhost:4200/`.
+You can access the project at `http://localhost:4200/`.
 
-## Learn more about integration with Angular
+## Related docs
 
-For detailed instructions on the integration, please refer to this tutorial: [Integration with Angular 4+](https://www.webdatarocks.com/doc/integration-with-angular/).
+For details on how to integrate WebDataRocks into existing Angular projects, check out the [Integration with Angular](https://www.webdatarocks.com/doc/integration-with-angular/).
+
+## Support
+
+Feel free to ask WebDataRocks-related questions on [StackOverflow](https://stackoverflow.com/questions/tagged/webdatarocks).
+
