@@ -8,7 +8,7 @@ This repository contains a sample project that shows how to integrate [WebDataRo
 
 - [Node.js 14](https://nodejs.org/en)
 
-## Run this project
+## Run the project
 
 1. Download or clone this project from GitHub:
 ```
