@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ViewChild } from '@angular/core';
-import { WebdatarocksComponent } from 'ng-webdatarocks';
+import { WebdatarocksComponent } from '@webdatarocks/ngx-webdatarocks';
 
 @Component({
   selector: 'app-root',
