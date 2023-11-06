@@ -4,6 +4,8 @@
 
 This repository contains a sample project that shows how to integrate [WebDataRocks](https://www.webdatarocks.com/) with the [Angular framework](https://angular.io/).
 
+**Note:** This project uses the [ng-webdatarocks](https://github.com/WebDataRocks/ng-webdatarocks) wrapper. The project on the [master](https://github.com/WebDataRocks/pivot-angular/tree/master) branch uses the Ivy-compatible `ngx-webdatarocks` wrapper for Angular 14+.
+
 ## Prerequisites
 
 - [Node.js 14](https://nodejs.org/en)
@@ -12,7 +14,7 @@ This repository contains a sample project that shows how to integrate [WebDataRo
 
 1. Download or clone this project from GitHub:
 ```bash
-git clone https://github.com/WebDataRocks/pivot-angular.git
+git clone -b ng-webdatarocks https://github.com/WebDataRocks/pivot-angular.git pivot-angular
 cd pivot-angular
 ```
 2. Install npm packages:
@@ -27,7 +29,7 @@ You can access the project at `http://localhost:4200/`.
 
 ## Related docs
 
-For details on how to integrate WebDataRocks into existing Angular projects, check out the [integration with Angular](https://www.webdatarocks.com/doc/integration-with-angular/).
+For details on how to integrate WebDataRocks into existing Angular projects, check out the [integration with Angular](https://www.webdatarocks.com/doc/integration-with-angular?target=ng-webdatarocks).
 
 ## Support
 
