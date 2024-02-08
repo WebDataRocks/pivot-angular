@@ -2,6 +2,7 @@
   "name": "webdatarocks-angular",
   "version": "0.0.0",
   "license": "MIT",
+  "description": "Example of integrating WebDataRocks Pivot Table with the Angular 15 framework",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
