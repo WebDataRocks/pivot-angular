@@ -1,4 +1,4 @@
-# Example of integrating WebDataRocks with the Angular framework
+# Example of integrating WebDataRocks with the Angular 14+ framework
 
 :grey_exclamation: **Updated to Angular 17** :grey_exclamation:
 
@@ -8,7 +8,7 @@ This repository contains a sample project that shows how to integrate [WebDataRo
 
 ## Prerequisites
 
-- [Node.js 18 through 20](https://nodejs.org/en)
+- [Node.js 18 or later](https://nodejs.org/en)
 
 ## Run the project
 
