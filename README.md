@@ -1,6 +1,5 @@
 # Example of integrating WebDataRocks with the Angular 5-15 framework
 
-:grey_exclamation: **Updated to Angular 15** :grey_exclamation:
 
 This repository contains a sample project that shows how to integrate [WebDataRocks](https://www.webdatarocks.com/) with the [Angular framework](https://angular.io/).
 
