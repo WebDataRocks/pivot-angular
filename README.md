@@ -1,10 +1,10 @@
-# Example of integrating WebDataRocks with the Angular framework
+# Example of integrating WebDataRocks with the Angular 5-15 framework
 
 :grey_exclamation: **Updated to Angular 15** :grey_exclamation:
 
 This repository contains a sample project that shows how to integrate [WebDataRocks](https://www.webdatarocks.com/) with the [Angular framework](https://angular.io/).
 
-**Note:** This project uses the [ng-webdatarocks](https://github.com/WebDataRocks/ng-webdatarocks) wrapper. The project on the [master](https://github.com/WebDataRocks/pivot-angular/tree/master) branch uses the Ivy-compatible `ngx-webdatarocks` wrapper for Angular 14+.
+**Note:** This project uses the [ng-webdatarocks](https://github.com/WebDataRocks/ng-webdatarocks) wrapper. The project on the [master](https://github.com/WebDataRocks/pivot-angular/tree/master) branch uses the Ivy-compatible [ngx-webdatarocks](https://github.com/WebDataRocks/ngx-webdatarocks) wrapper for Angular 14+.
 
 ## Prerequisites
 
