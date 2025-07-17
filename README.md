@@ -2,7 +2,7 @@
 
 :grey_exclamation: **Updated to Angular 17** :grey_exclamation:
 
-This repository contains a sample project that shows how to integrate [WebDataRocks](https://www.webdatarocks.com/) with the [Angular framework](https://angular.io/).
+This repository contains a sample project that shows how to integrate [WebDataRocks](https://www.webdatarocks.com/) with the [Angular framework](https://angular.dev/).
 
 **Note:** This project uses the Ivy-compatible [ngx-webdatarocks](https://github.com/WebDataRocks/ngx-webdatarocks) wrapper. The project on the [ng-webdatarocks](https://github.com/WebDataRocks/pivot-angular/tree/ng-webdatarocks) branch uses the [ng-webdatarocks](https://github.com/WebDataRocks/ng-webdatarocks) wrapper for Angular 5-15.
 
