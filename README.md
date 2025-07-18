@@ -28,7 +28,7 @@ You can access the project at `http://localhost:4200/`.
 
 ## Related docs
 
-For details on how to integrate WebDataRocks into existing Angular projects, check out the [integration with Angular](https://www.webdatarocks.com/doc/angular/how-to-start-online-reporting/?target=ng-webdatarocks).
+For details on how to integrate WebDataRocks into existing Angular projects, check out the [integration with Angular](https://www.webdatarocks.com/doc/angular/how-to-start-online-reporting).
 
 ## Support
 
