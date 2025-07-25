@@ -1,4 +1,4 @@
-# Example of integrating WebDataRocks with the Angular 14+ framework
+# Example of integrating WebDataRocks with the Angular framework
 
 :grey_exclamation: **Updated to Angular 17** :grey_exclamation:
 
