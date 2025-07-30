@@ -1,37 +1,59 @@
-# Example of integrating WebDataRocks with the Angular framework
+# ViteProject
 
-:grey_exclamation: **Updated to Angular 17** :grey_exclamation:
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.3.
 
-This repository contains a sample project that shows how to integrate [WebDataRocks](https://www.webdatarocks.com/) with the [Angular framework](https://angular.dev/).
+## Development server
 
-**Note:** This project uses the Ivy-compatible [ngx-webdatarocks](https://github.com/WebDataRocks/ngx-webdatarocks) wrapper. The project on the [ng-webdatarocks](https://github.com/WebDataRocks/pivot-angular/tree/ng-webdatarocks) branch uses the [ng-webdatarocks](https://github.com/WebDataRocks/ng-webdatarocks) wrapper for Angular 5-15.
+To start a local development server, run:
 
-## Prerequisites
-
-- [Node.js 18 or later](https://nodejs.org/en)
-
-## Run the project
-
-1. Download or clone this project from GitHub:
 ```bash
-git clone https://github.com/WebDataRocks/pivot-angular.git
-cd pivot-angular
+ng serve
 ```
-2. Install npm packages:
+
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Code scaffolding
+
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+
 ```bash
-npm install
+ng generate component component-name
 ```
-3. Run the project:
+
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
 ```bash
-npm start
+ng generate --help
 ```
-You can access the project at `http://localhost:4200/`.
 
-## Related docs
+## Building
 
-For details on how to integrate WebDataRocks into existing Angular projects, check out the [integration with Angular](https://www.webdatarocks.com/doc/angular/how-to-start-online-reporting/).
+To build the project run:
 
-## Support
+```bash
+ng build
+```
 
-For WebDataRocks-related questions, bug reports and features requests, please [create an issue on our GitHub](https://github.com/WebDataRocks/web-pivot-table/issues).
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
