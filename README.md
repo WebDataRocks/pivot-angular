@@ -1,4 +1,5 @@
 # Example of integrating WebDataRocks with the Angular framework
+[![WebDataRocks](https://cdn.webdatarocks.com/readmes/angular.png)](https://www.webdatarocks.com/?r=gh_sample_angular)
 
 :grey_exclamation: **Updated to Angular 20** :grey_exclamation:
 
