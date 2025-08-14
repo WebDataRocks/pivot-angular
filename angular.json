@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "vite-project": {
+    "pivot-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "vite-project:build:production"
+              "buildTarget": "pivot-angular:build:production"
             },
             "development": {
-              "buildTarget": "vite-project:build:development"
+              "buildTarget": "pivot-angular:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -8,7 +8,7 @@ This repository contains a sample project that shows how to integrate [WebDataRo
 
 ## Prerequisites
 
-- [Node.js 18 or later](https://nodejs.org/en)
+- [Node.js 20 or later](https://nodejs.org/en)
 
 ## Run the project
 
@@ -33,5 +33,5 @@ For details on how to integrate WebDataRocks into existing Angular projects, che
 
 ## Support
 
-For WebDataRocks-related questions, bug reports and features requests, please [create an issue on our GitHub](https://github.com/WebDataRocks/web-pivot-table/issues).
+For WebDataRocks-related questions, bug reports, and features requests, please [create an issue on our GitHub](https://github.com/WebDataRocks/web-pivot-table/issues).
 
