@@ -29,9 +29,9 @@ You can access the project at `http://localhost:4200/`.
 
 ## Related docs
 
-For details on how to integrate WebDataRocks into existing Angular projects, check out the [integration with Angular](https://www.webdatarocks.com/doc/angular/how-to-start-online-reporting/).
+For details on how to integrate WebDataRocks into existing Angular projects, check out the [integration with Angular](https://www.webdatarocks.com/doc/angular/how-to-start-online-reporting/?r=gh_sample_angular).
 
 ## Support
 
-For WebDataRocks-related questions, bug reports, and features requests, please [create an issue on our GitHub](https://github.com/WebDataRocks/web-pivot-table/issues).
+For WebDataRocks-related questions, bug reports, and features requests, please [create an issue on our GitHub](https://github.com/WebDataRocks/web-pivot-table/issues/?r=gh_sample_angular).
 
