@@ -1,12 +1,10 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<h1>Angular 16 integration with WebDataRocks</h1>
-<app-wbr-pivot #pivot1 
-          [toolbar]="true"
-          [width]="'100%'"
-          [height]="500"
-          [customizeCell]="onCustomizeCell"
-          (ready)="onPivotReady($event)"
-          (reportcomplete)="onReportComplete()">
-    WebDataRocks will appear here
-</app-wbr-pivot>
-
+<div id="container">
+  <app-top-menu></app-top-menu>
+  <div id="pivot">
+    <app-wbr-pivot
+      [toolbar]="true"
+      [height]="600"
+      [report]="'https://cdn.webdatarocks.com/reports/report.json'">
+    </app-wbr-pivot>
+  </div>  
+</div>
