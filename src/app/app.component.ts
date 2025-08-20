@@ -1,40 +1,13 @@
-import { Component } from '@angular/core';
-import { ViewChild } from '@angular/core';
-import { WebdatarocksComponent } from '@webdatarocks/ngx-webdatarocks';
+import { Component, signal } from '@angular/core';
+import { WebdatarocksPivotModule } from "@webdatarocks/ngx-webdatarocks";
+import { TopMenuComponent } from '../components/top-menu/top-menu.component';
 
 @Component({
   selector: 'app-root',
+  imports: [WebdatarocksPivotModule, TopMenuComponent],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrl: './app.component.css'
 })
-export class AppComponent {
-  @ViewChild('pivot1') child: WebdatarocksComponent;
-
-  onPivotReady(pivot: WebDataRocks.Pivot): void {
-    console.log('[ready] WebdatarocksPivotModule', this.child);
-  }
-
-  onCustomizeCell(
-    cell: WebDataRocks.CellBuilder,
-    data: WebDataRocks.CellData
-  ): void {
-    if (data.isClassicTotalRow) {
-      cell.addClass('fm-total-classic-r');
-    }
-    if (data.isGrandTotalRow) {
-      cell.addClass('fm-grand-total-r');
-    }
-    if (data.isGrandTotalColumn) {
-      cell.addClass('fm-grand-total-c');
-    }
-  }
-
-  onReportComplete(): void {
-    this.child.webDataRocks.off('reportcomplete');
-    this.child.webDataRocks.setReport({
-      dataSource: {
-        filename: 'https://cdn.webdatarocks.com/data/data.json',
-      },
-    });
-  }
+export class App {
+  protected readonly title = signal('vite-project');
 }
