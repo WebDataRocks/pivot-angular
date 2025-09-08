@@ -36,7 +36,7 @@ For details on how to integrate WebDataRocks into existing Angular projects, che
 
 This WebDataRocks sample project is released under the MIT license (free and open-source).
 
-[WebDataRocks](https://www.webdatarocks.com/) is distributed under the terms and conditions of the WebDataRocks End User License Agreement: https://www.webdatarocks.com/license-agreement/.
+[WebDataRocks](https://www.webdatarocks.com/?r=rm_angular) is distributed under the terms and conditions of the WebDataRocks End User License Agreement: [https://www.webdatarocks.com/license-agreement/](https://www.webdatarocks.com/license-agreement/?r=rm_angular).
 
 ## Support
 
