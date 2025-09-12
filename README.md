@@ -1,5 +1,8 @@
 # Example of integrating WebDataRocks with the Angular framework
 [![WebDataRocks](https://cdn.webdatarocks.com/readmes/angular.png)](https://www.webdatarocks.com/?r=rm_angular)
+Website: [webdatarocks.com](https://www.webdatarocks.com?r=rm_angular)
+
+[![Github Stars](https://img.shields.io/github/stars/webdatarocks?style=social)](https://github.com/webdatarocks) [![Twitter](https://img.shields.io/twitter/follow/WebDataRocks?style=social)](https://twitter.com/WebDataRocks)
 
 :grey_exclamation: **Updated to Angular 20** :grey_exclamation:
 
